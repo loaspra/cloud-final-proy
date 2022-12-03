@@ -1,0 +1,12 @@
+apiVersion: kubeflow.org/v1
+kind: Profile
+metadata:
+  name: KubeflowNotebooks
+spec:
+  owner:
+    kind: User
+    name: 
+  plugins:
+  - kind: AwsIamForServiceAccount
+    spec:
+      awsIamRole: arn:aws:iam::719532626616:role/KubeflowNotebooks-kubeflow-role

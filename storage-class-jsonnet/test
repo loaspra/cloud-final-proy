@@ -1,0 +1,40 @@
+{
+    "FileSystems": [
+        {
+            "OwnerId": "719532626616",
+            "CreationToken": "42369a92-310f-460a-8e31-4a82b6749b63",
+            "FileSystemId": "fs-0c873d1488687df86",
+            "FileSystemArn": "arn:aws:elasticfilesystem:us-east-1:719532626616:file-system/fs-0c873d1488687df86",
+            "CreationTime": "2022-12-03T00:19:14+00:00",
+            "LifeCycleState": "available",
+            "NumberOfMountTargets": 0,
+            "SizeInBytes": {
+                "Value": 6144,
+                "ValueInIA": 0,
+                "ValueInStandard": 6144
+            },
+            "PerformanceMode": "generalPurpose",
+            "Encrypted": false,
+            "ThroughputMode": "bursting",
+            "Tags": []
+        },
+        {
+            "OwnerId": "719532626616",
+            "CreationToken": "f31fbb1f-4518-46a1-9a1a-68f8be04cfa1",
+            "FileSystemId": "fs-00c96f8c246e185e9",
+            "FileSystemArn": "arn:aws:elasticfilesystem:us-east-1:719532626616:file-system/fs-00c96f8c246e185e9",
+            "CreationTime": "2022-12-02T23:31:52+00:00",
+            "LifeCycleState": "available",
+            "NumberOfMountTargets": 2,
+            "SizeInBytes": {
+                "Value": 6144,
+                "ValueInIA": 0,
+                "ValueInStandard": 6144
+            },
+            "PerformanceMode": "generalPurpose",
+            "Encrypted": false,
+            "ThroughputMode": "bursting",
+            "Tags": []
+        }
+    ]
+}
