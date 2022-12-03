@@ -1,4 +1,4 @@
-# Proyecto Final: Segundo Avance
+# Proyecto Final
 
 *Santiago Madariaga Collado*
 
@@ -18,6 +18,10 @@ Se usarán varios servicos web de Amazon para instanciar el proyecto.
 
 Un diagrama general de estos se muestra a continuación
 ![Diagrama de los servicios usados](../../../../../../../f:/desx/Diagrama%20en%20blanco%20-%20P%C3%A1gina%205.png)
+
+### Cluster creado en EKS
+![image](https://user-images.githubusercontent.com/40249960/205457704-ee4861e0-eefe-4e4e-b87a-550b1426aa85.png)
+
 
 ### Diagrama de los servicios
 
@@ -62,6 +66,9 @@ Se usará el storage EFS para definir Volúmenes persistentes necesarios para lo
 + Crear roles, workspaces y usuarios necesarios
 
 Para esto, se crean políticas IAM para que el driver pueda acceder y gestionar el almacenamiento de las instancias EC2.
+
+![image](https://user-images.githubusercontent.com/40249960/205457721-86104d7a-2a71-4cad-a76c-c8d4654d9fd3.png)
+
 
 + Crear el bucket en S3 como medio de almacenamiento persistente
 
